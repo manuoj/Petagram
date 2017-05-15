@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar"
+        ></include>
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/miActionBar"
+        android:textSize="@dimen/tamaño_nombre"
+        android:textStyle="bold"
+        android:text="Catty"
+        android:padding="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tvRaza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNombre"
+        android:textSize="@dimen/tamaño_letras"
+        android:textStyle="italic"
+        android:text="Husky"
+        android:padding="16dp"
+        />
+
+</LinearLayout>
