@@ -14,4 +14,10 @@
     <dimen name="tamaño_likeIcon">30dp</dimen>
     <dimen name="tamaño_nombre">30sp</dimen>
     <dimen name="padding_detalle">30dp</dimen>
+    <dimen name="padding_AcercaNombre">200dp</dimen>
+    <dimen name="tamaño_estrella">33dp</dimen>
+    <dimen name="padding_contacto">25dp</dimen>
+    <dimen name="Tamaño_FotoPerfil">100dp</dimen>
+    <dimen name="margen_perfil_izq">50dp</dimen>
+    <dimen name="width_perfil">130dp</dimen>
 </resources>

@@ -8,5 +8,24 @@
     android:elevation="@dimen/elevacion_accionBar"
     android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
     app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:layout_scrollFlags="scroll|enterAlways"
     >
+
+    <ImageButton
+        android:id="@+id/boton"
+        android:layout_height="@dimen/tamaño_estrella"
+        android:layout_width="@dimen/tamaño_estrella"
+        android:title="pets"
+        android:showAsAction="always"
+        android:background="@drawable/estrella"
+        android:layout_gravity="right|center_horizontal"
+        android:onClick="toSecondActivity"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/boton">
+    </android.support.design.widget.TabLayout>
+
 </android.support.v7.widget.Toolbar>

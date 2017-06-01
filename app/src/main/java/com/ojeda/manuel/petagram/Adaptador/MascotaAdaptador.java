@@ -1,4 +1,4 @@
-package com.ojeda.manuel.petagram;
+package com.ojeda.manuel.petagram.Adaptador;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -11,10 +11,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
+import com.ojeda.manuel.petagram.Mascota;
+import com.ojeda.manuel.petagram.R;
+import com.ojeda.manuel.petagram.detalleMascota;
 
-import static com.ojeda.manuel.petagram.R.layout.activity_main;
-import static com.ojeda.manuel.petagram.R.layout.detalle_mascota;
+import java.util.ArrayList;
 
 /**
  * Created by manuel on 14/05/17.

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ojeda.manuel.petagram.Menu.acercaDe">
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar"
+        ></include>
+
+    <TextView
+        android:id="@+id/tvAcercaNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/NombreDesarrollador"
+        android:textSize="@dimen/tamaño_letras"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/padding_AcercaNombre" />
+
+    <TextView
+        android:id="@+id/tvAcercaEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edadDesarrollador"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/tvAcercaNombre"
+        android:textSize="@dimen/tamaño_letras"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/tvAcercaCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cursoDesarrollador"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/tvAcercaEdad"
+        android:textSize="@dimen/tamaño_letras"
+        android:textStyle="italic"
+        />
+
+</LinearLayout>

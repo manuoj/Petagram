@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/cardviewMascota"
+    android:layout_width="@dimen/width_perfil"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_cardview"
+    card_view:cardCornerRadius="@dime/corner_cardview"
+    android:layout_gravity="center_horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_cardview"
+        >
+
+        <ImageView
+            android:id="@+id/ivFotoPerfil"
+            android:layout_width="@dimen/Tamaño_FotoPerfil"
+            android:layout_height="@dimen/Tamaño_FotoPerfil"
+            android:src="@drawable/mascota6"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/tvNumeroPerfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tamaño_letras"
+                android:textStyle="italic"
+                android:text="@string/Likes_inicio"
+                android:layout_marginStart="@dimen/margen_perfil_izq"
+                android:layout_marginLeft="@dimen/margen_perfil_izq"
+                android:layout_gravity="center_vertical"/>
+
+            <ImageView
+                android:id="@+id/ivCroquetaPerfil"
+                android:layout_width="@dimen/tamaño_icon"
+                android:layout_height="@dimen/tamaño_icon"
+                android:adjustViewBounds="true"
+                android:src="@drawable/hueso1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/margin_left_cv"
+                android:layout_marginLeft="@dimen/margin_left_cv"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Petagram</string>
     <string name="Likes_inicio">0</string>
+    <string name="mContacto">Contacto</string>
+    <string name="mAcerca">Acerca de</string>
+    <string name="NombreDesarrollador">Manuel Ojeda</string>
+    <string name="edadDesarrollador">25 años</string>
+    <string name="cursoDesarrollador">Curso: aplicaciones de Android</string>
+    <string name="nombre_hint">Nombre</string>
+    <string name="correo_hint">Correo</string>
+    <string name="mensaje_hint">Mensaje</string>
+    <string name="boton_enviar">Enviar Comentario</string>
+    <string name="Husky">Atom</string>
 </resources>
